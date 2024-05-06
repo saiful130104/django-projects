@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*py.class
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+
+# Virtual environment
+.venv/
+env/
+
+# IDE/Text editor
+.vscode/
+.idea/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Static files (if not using a CDN)
+static_cdn/
+media/*
+
+# Other
+*.mo # Compiled message catalogs
+*.pot # Message template files
+
+# OS specific
+.DS_Store
+Thumbs.db
